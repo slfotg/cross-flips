@@ -1,3 +1,4 @@
 module.exports = {
-  basePath: "/cross-flips"
+  basePath: "/cross-flips",
+  trailingSlash: true
 }
