@@ -1,0 +1,30 @@
+.grid {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -1px;
+  margin-right: -1px;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: white;
+  transition: background-color 150ms;
+}
+
+.highlightedCell {
+  background-color: #eee;
+}
+
+.cell-content {
+  display: table-cell;
+  vertical-align: middle;
+}
